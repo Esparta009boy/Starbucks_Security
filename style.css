@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.caixa-texto {
+    width: 600px;
+    
+}
+
+h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: justify;
+}
+h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(0, 30, 255);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 25;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #000000;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+    
+}
+    
+.starbucks {
+    width: 340px;
+    
+}
+
+.menu {
+    display : flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botao-menu:hover {
+    transform: translatey(-35px);
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+
+.verde {
+    background: #017143;
+}
+
+.rosa {
+    background: #eb7495;
+}
+
+.roxo {
+    background: #d752b1;
+}
